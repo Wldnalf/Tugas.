@@ -78,6 +78,29 @@ sort ($data);
 echo"<prev>";
 print_r($data);
 echo "</prev>";
+?><br>
+
+No 9<br>
+
+<?php
+
+$nilai =array(5,9,13,43,2,7);
+$jml_nilai = array_sum($nilai);
+
+echo $jml_nilai;
+
+
+?><br>
+
+no 10<br>
+
+<?php
+$nilai1 = array(5,9,13,43,2,7);
+sort($nilai1);
+
+print_r($nilai1);
+
+
 ?>
 
 
